@@ -1,0 +1,338 @@
+html {
+    background-color: #0e0f1d;
+    font-family: "Ubuntu", Sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/*===================== CABEÇALHO =====================*/
+header {
+    background-color: rgb(4, 1, 14);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 20px;
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.cabecalho-1,
+.cabecalho-2 {
+    flex: 1;
+    display: flex;
+}
+
+.cabecalho-1 {
+    justify-content: flex-end;
+}
+
+.cabecalho-2 {
+    justify-content: flex-start;
+}
+
+.cabecalho-1 ul li a {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.cabecalho-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.cabecalho-meio {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.cabecalho-2 a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.cabecalho-2 li a:hover,
+.cabecalho-1 a:hover {
+    color: rgba(0, 68, 100, 0.923);
+    box-shadow: 0 10px 50px black;
+}
+
+/*=========================== MAIN ===========================*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section1 {
+    background-image: url(../src/background_main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nova-musica {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nova-musica h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: "Oranienbaum", serif;
+}
+
+.nova-musica a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nova-musica img {
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.704);
+    margin-bottom: 20px;
+}
+
+.nova-musica .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 65%;
+}
+
+.conteudo-2 {
+    color: #f2e6ff;
+    margin-left: 60px;
+    width: 45%;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn-listen {
+    display: inline-block;
+    border: 3px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-listen:hover {
+    background: white;
+    font-weight: bolder;
+    color: #250125;
+    transform: scale(1.05);
+}
+
+
+/* SEÇÃO CARROSSEL DE MUSICAS */
+.musicas-slider{
+    background-image: linear-gradient(#0e0f1d, black, black);
+    padding-top: 200px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.musicas-slider h1{
+    margin-bottom: 50px;
+    font-size: 36px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+/* Área visível do slider */
+.slider {
+    overflow: hidden;
+    width: 1045px; /* Ajuste para o tamanho desejado */
+}
+
+/* Faixa que contém as imagens */
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Imagens */
+.slider-track img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Garante que a imagem não seja cortada */
+    margin-right: 10px; /* Espaço entre imagens */
+}
+
+/* Botões de navegação */
+button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover {
+    color: rgba(0, 68, 100, 0.923);
+}
+
+/* RODAPE */
+footer{
+    padding-top: 200px;
+    background-image: linear-gradient(black,#0e0f1d);
+    color: white;
+}
+.rodape{
+    padding-top: 40px;
+    background-color: #0b0b16;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodape .itens{ 
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+.itens-lista{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.itens-lista li{
+    padding: 20px;
+}
+.itens-lista a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.itens-lista a:hover{
+    color: rgba(0, 68, 100, 0.923);
+    box-shadow: 0 10px 50px black;
+}
+.logo{
+    margin-left: 100px;
+}
+
+/*====================== RESPONSIVIDADE ======================*/
+@media (max-width: 880px) {
+
+    /*APARTIR DE CERTO TAMANHO O CABEÇALHO IRA SE PORTAR DIFERENTE*/
+    body {
+        margin: 0;
+    }
+
+    header {
+        background-image: linear-gradient(#000112, #0b0c1b);
+
+    }
+
+    .cabecalho {
+        flex-direction: column;
+        /* Empilha os elementos do cabeçalho */
+        align-items: center;
+    }
+
+    .cabecalho-2 li a:hover,
+    .cabecalho-1 a:hover {
+        color: rgba(0, 68, 100, 0.923);
+        box-shadow: none;
+    }
+
+    .cabecalho-1,
+    .cabecalho-2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cabecalho-meio {
+        margin-bottom: 10px;
+    }
+
+    .cabecalho-2 {
+        display: none;
+    }
+
+    .nova-musica {
+        margin-left: 0;
+        flex-direction: column;
+        /* Empilha o texto e a imagem quando a tela for pequena */
+        align-items: center;
+    }
+
+    .nova-musica .conteudo {
+        margin: 0px;
+        width: 100%;
+        /* Faz com que ocupem toda a largura disponível */
+        text-align: center;
+    }
+
+    .nova-musica .conteudo-2 {
+        display: none;
+    }
+
+    .slider {
+        overflow: hidden;
+        width: 90%; /* Ajusta o slider para ocupar 90% da largura da tela */
+        margin: auto; /* Centraliza o slider */
+    }
+    .slider-track img {
+        width: 100px; /* Ajusta o tamanho das imagens para que caibam corretamente */
+        height: 100px; /* Ajusta a altura proporcionalmente */
+    }
+    footer{
+        padding-top: 100px;
+        background-image: linear-gradient(black,#0e0f1d);
+        color: white;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .logo img{
+        width: 200px;
+    }
+    .rodape{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .itens{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 90px;
+        margin-right: 50px;
+    }
+}
