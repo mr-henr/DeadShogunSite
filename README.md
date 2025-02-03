@@ -13,4 +13,5 @@ Seção de eventos e lançamentos
 Botão para contato via WhatsApp
 Links para redes sociais
 
-Status: Projeto finalizado aguardando deploy
+Status: Semi-finalizado
+(aguardando, o artista finalizar conteudo "Sobre" e "Musicas" para deploy)
