@@ -14,6 +14,6 @@ Botão para contato via WhatsApp
 Links para redes sociais
 
 Status: Semi-finalizado
-(aguardando, o artista finalizar conteudo "Sobre" e "Musicas" para deploy)
+(aguardando, o artista finalizar conteudo "Sobre" e "Musicas" para deploy oficial)
 
 Visualização disponivel em: https://mr-henr.github.io/DeadShogunSite/
