@@ -15,3 +15,5 @@ Links para redes sociais
 
 Status: Semi-finalizado
 (aguardando, o artista finalizar conteudo "Sobre" e "Musicas" para deploy)
+
+Visualização disponivel em: https://mr-henr.github.io/DeadShogunSite/
