@@ -13,7 +13,6 @@ Seção de eventos e lançamentos
 Botão para contato via WhatsApp
 Links para redes sociais
 
-Status: Semi-finalizado
-(aguardando, o artista finalizar conteudo "Sobre" e "Musicas" para deploy oficial)
+Status: Semi-finalizado (Descontinuado)
 
 Visualização disponivel em: https://mr-henr.github.io/DeadShogunSite/
